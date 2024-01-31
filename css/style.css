@@ -26,7 +26,8 @@ body {
 
 .heading-2 {
   font-size: 4rem;
-  font-style: italic; }
+  font-style: italic;
+  line-height: 1; }
   .heading-2--light {
     color: #f9f7f6; }
   .heading-2--dark {
@@ -43,6 +44,20 @@ body {
     color: #f9f7f6; }
   .heading-4--dark {
     color: #54483a; }
+
+.btn {
+  background-color: #c69963;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all 0.2s; }
+  .btn:hover {
+    background-color: #b28451; }
 
 .sidebar {
   background-color: #c69963;
